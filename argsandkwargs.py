@@ -1,0 +1,10 @@
+def kwarguments (**kwargument):
+	print("-"*5,"Kullanıcı verileri:","-"*5)
+	print(kwargument)
+	print(f"İsminiz:{kwargument["isim"]}")
+	print(f"Soyisminiz:{kwargument["soyisim"]}")
+	print(f"Yasiniz:{kwargument["yas"]}")
+İsim = input("İsminiz Nedir?")
+Soyisim = input("Soyisminiz Nedir?")
+Yas = input("Yasiniz Nedir?")
+kwarguments(isim=İsim,soyisim=Soyisim,yas=Yas)
