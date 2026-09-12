@@ -7,6 +7,8 @@ def kwarguments (**kwargument):
 
 	if kwargument["yas"] < 18:
 		print("Yaşınız 18'den küçük olduğu için maalesef devam edemiyorsunuz!")
+	else :
+		print("Hoşgeldiniz işlemlerinize gönül rahatlığıyla devam edebilirsiniz!")
 
 İsim = input("İsminiz Nedir?")
 Soyisim = input("Soyisminiz Nedir?")
